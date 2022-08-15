@@ -1,0 +1,70 @@
+.header {
+  background: var(--gray-700);
+  height: 200px;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.header span:first-of-type {
+  margin-left: 0.75rem;
+  color: var(--blue);
+}
+
+.header span:last-of-type {
+  color: var(--purple-dark);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.info p > span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 8px;
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+}
+
+.info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tasksCreated {
+  color: var(--blue);
+}
+
+.tasksCompleted {
+  color: var(--purple);
+}
+
+.noTaskInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--gray-300);
+}
+
+.noTaskInfo img {
+  margin-top: 4rem;
+}
+
+.noTaskInfo strong {
+  margin: 1rem;
+}
+
+.line {
+  background: var(--gray-400);
+  height: 1px;
+  width: 100%;
+}

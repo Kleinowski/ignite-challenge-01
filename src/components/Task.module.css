@@ -1,0 +1,67 @@
+.container {
+  background: var(--gray-500);
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 0.75rem 0;
+}
+
+.container button {
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.container p {
+  word-wrap: break-word;
+  overflow: hidden;
+  flex: 1;
+}
+
+.btnCompleted {
+  cursor: pointer;
+  color: var(--gray-100);
+  background: var(--purple-dark);
+  border: 0;
+  /* border-color: var(--purple); */
+}
+
+.btnUncompleted {
+  transition: color 0.1s; 
+  cursor: pointer;
+  background: transparent;
+  border-color: var(--blue);
+  border: 2px solid var(--blue);
+}
+
+.btnUncompleted:hover {
+  border-color: var(--purple-dark);
+}
+
+.textUncompleted {
+  color: var(--gray-100);
+}
+
+.textCompleted {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.btnDelete {
+  color: var(--gray-300);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  transition: color 0.1s;
+}
+
+.btnDelete:hover {
+  color: var(--danger);
+  cursor: pointer;
+}
